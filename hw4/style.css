@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+}
+.box1{
+    background-color: red;
+    top: 0;
+   left: 0; 
+   z-index: 1;
+}
+.box2{
+    background-color: green;
+    top: 50px;
+    left: 50px;  
+    z-index: 3; 
+    transition: 2s;
+    
+}
+.box2:hover {
+    transform: scale(1.5) rotate(-45deg); /* scale - масштабирование, rotate - поворот */
+}
+
+.box3{
+    background-color: blue;
+    top: 100px;
+    left: 100px; 
+    z-index: 2;  
+}
