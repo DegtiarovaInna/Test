@@ -1,0 +1,16 @@
+   0 touch myfile.txt
+   1 date > /myfile.txt
+   2 df -h /
+   3 df -h >> /myfile.txt
+   4 history >> /myfile.txt
+   5 cat /myfile.txt
+   6 cat /proc/cpuinfo
+   7 cat /proc/cpuinfo | grep vendor | awk '{print $3}' >> /myfile.txt
+   8 cat /myfile.txt
+   9 sed '1,11d' myfile.txt
+  10 cat /myfile.txt
+  11 sed '1,11d' /myfile.txt
+  12 cat /myfile.txt
+  13 vi /myfile.txt
+  14 cat /myfile.txt
+  15 history > /tmp/history.txt
